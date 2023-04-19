@@ -2,10 +2,6 @@ name: Lanelet2 CD
 
 on:
   push:
-    branches:
-      - master
-    tags:
-      - '*'
   workflow_dispatch:
 
 permissions:
